@@ -18,10 +18,13 @@
     <link href="assets/img/paw-print.png" rel="icon" sizes="512x512" type="image/png">
     <link href="assets/img/paw-print.png" rel="icon" sizes="512x512" type="image/png">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="assets/fonts/fontawesome-all.min.css" rel="stylesheet">
     <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
     <link href="assets/fonts/fontawesome5-overrides.min.css" rel="stylesheet">
+    <link href="assets/css/Auto-Modal-Popup.css" rel="stylesheet">
     <link href="assets/css/Contact-Form-Clean.css" rel="stylesheet">
     <link href="assets/css/Footer-Basic.css" rel="stylesheet">
     <link href="assets/css/Highlight-Clean-1.css" rel="stylesheet">
@@ -70,13 +73,12 @@
         </div>
         <!-- End: Intro -->
         <!-- Start: Buttons -->
-        <div class="buttons"><a class="btn btn-primary" href="gallery.html" role="button"
-                                style="font-size: 16px;color: #ecf0f1;">VIEW GALLERY<i class="far fa-image"
+        <div class="buttons"><a class="btn btn-primary text-capitalize" href="gallery.html" role="button"
+                                style="font-size: 16px;color: #ecf0f1;">View Gallery<i class="far fa-image"
                                                                                        style="margin-left: 10px;color: #795548;"></i></a><a
-                class="btn btn-light" href="about.html" role="button"
-                style="font-size: 16px;color: #2c3e50;">LEARN MORE<i class="far fa-heart"
-                                                                     style="margin-left: 10px;color: rgba(231, 76, 60,1.0);"></i></a>
-        </div>
+                class="btn btn-light text-capitalize"
+                href="about.html" role="button" style="font-size: 16px;color: #2c3e50;">Learn More<i
+                class="far fa-heart" style="margin-left: 10px;color: rgba(231, 76, 60,1.0);"></i></a></div>
         <!-- End: Buttons -->
     </div>
 </div>
@@ -107,9 +109,40 @@
     </footer>
 </div>
 <!-- End: Footer Basic -->
+<!-- Start: Auto Modal Popup -->
+<div class="modal fade" id="contactModal" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span
+                        aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body" style="background: url(assets/img/scarlett-3.jpg);">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <form data-bss-recipient="67b465af92ed4ffdcc0537eaadc6dd61">
+                            <h4 class="modal-title" style="text-align: center;">Happiness is a warm puppy. Reserve yours
+                                today!</h4><img
+                                src="assets/img/IMG_2780.jpg"
+                                style="width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 5px;border: 1px solid rgb(255,255,255) ;"></form>
+                        <!-- Start: Buttons -->
+                        <div class="buttons" style="text-align: center;"><a class="btn btn-primary btn-block"
+                                                                            href="gallery.html" role="button"
+                                                                            style="font-size: 16px;color: #ecf0f1;background-color: #1abc9c;border-radius: 50px;border-style: none;">View
+                            Gallery<i class="far fa-image" style="margin-left: 10px;color: #795548;"></i></a></div>
+                        <!-- End: Buttons -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End: Auto Modal Popup -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/smart-forms.min.js"></script>
 <script src="assets/js/bs-init.js"></script>
+<script src="assets/js/Auto-Modal-Popup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 
